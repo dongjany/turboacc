@@ -12,6 +12,9 @@ cp -r temp_lede/package/network/utils/nftables package/network/utils/
 cp -r temp_lede/package/network/config/firewall4 package/network/config/
 cp temp_lede/target/linux/generic/hack-6.6/952-add-net-conntrack-events-support-multiple-registrant.patch target/linux/generic/hack-6.6/
 
+# 删除临时仓库
+rm -rf temp_lede
+
 # 校验文件是否到位
 echo "====校验文件===="
 ls -d package/libs/libnftnl
