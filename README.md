@@ -6,7 +6,6 @@
 ## 使用方法
 
 + 在openwrt源代码所在目录执行：
-
-    ```bash
-    curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
-    ```
+ ```bash
+curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
+```
