@@ -3,7 +3,7 @@ rm -rf package/network/utils/nftables
 rm -rf package/libs/libnftnl
 
 # 临时克隆lede，拷贝需要的组件
-git clone --depth=1 https://mirror.ghproxy.com/https://github.com/coolsnowwolf/lede.git temp_lede
+git clone --depth=1 https://github.com/coolsnowwolf/lede.git temp_lede
 
 cp -r temp_lede/package/libs/libnftnl package/libs/
 cp -r temp_lede/package/network/utils/nftables package/network/utils/
