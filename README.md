@@ -1,7 +1,6 @@
 # luci-app-turboacc
 
-一个适用于官方openwrt-24.10 的turboacc 
-+ 包括以下功能：软件流量分载、全锥型 NAT、BBR 拥塞控制算法
+修复Lienol的openwrt中luci-app-turboacc软件包问题
 
 ## 使用方法
 
